@@ -1,9 +1,12 @@
-import Contact from "./Contact";
+import Navbar from "./Header.info/header";
+import Marquee from "./Header.info/Marquee";
 
 function App(){
   return(
     <>
-    <Contact num1 = {5} num2 = {10} />
+   <Marquee/>
+
+   <Navbar/>
     </>
   )
 }
