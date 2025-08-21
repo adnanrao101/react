@@ -1,5 +1,6 @@
 import Navbar from "./Header.info/header";
 import Marquee from "./Header.info/Marquee";
+import MarketingBanner from './herosection.info/MarketingBanner';
 
 function App(){
   return(
@@ -7,6 +8,8 @@ function App(){
    <Marquee/>
 
    <Navbar/>
+
+   <MarketingBanner/>
     </>
   )
 }

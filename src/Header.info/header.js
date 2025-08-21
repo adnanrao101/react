@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "./logo.png"
 import "./Navbar.css";
 
 
@@ -7,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Left side Logo */}
       <div className="logo">
-        <img src="/logo.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
         <div className="logo-text">
           <h2>DSH</h2>
           <p>Institute & Software Solutions</p>
