@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+  width: 50%;
+  height: 50%;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    color: teal;
+    font-size: 400px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: cadetblue;
+    font-size: 100px;
+}
+
+#d2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    color: rgb(165, 222, 224);
+    background-color: teal;
+    border-radius: 30px;
+    border: 2px solid blanchedalmond;
+    font-family: fantasy;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, #00c9ff, teal);
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+button:hover::before {
+    left: 0;
+}
+
+button:hover {
+    color: white;
+    border-color: transparent;
+    transform: scale(1.08);
+    letter-spacing: 1px;
+    box-shadow: 0 8px 20px rgba(0, 206, 209, 0.5);
+}
+
+
+
+
+
+
+/* ========== MOBILE RESPONSIVE STYLES ========== */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 100px; /* Reduced from 400px */
+    }
+
+    h2 {
+        font-size: 50px; /* Reduced from 100px */
+    }
+
+    button {
+        width: 80%;
+        max-width: 300px;
+        font-size: 14px;
+        margin: 10px auto;
+    }
+
+    #d2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

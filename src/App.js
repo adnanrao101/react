@@ -1,15 +1,12 @@
-import Navbar from "./Header.info/header";
-import Marquee from "./Header.info/Marquee";
-import MarketingBanner from './herosection.info/MarketingBanner';
+import Counter from "./practis1/Counter";
+
 
 function App(){
   return(
     <>
-   <Marquee/>
 
-   <Navbar/>
+    <Counter/>
 
-   <MarketingBanner/>
     </>
   )
 }
@@ -32,6 +29,14 @@ export default App;
 
 
 
+// import Navbar from "./Header.info/header";
+// import Marquee from "./Header.info/Marquee";
+// import MarketingBanner from './herosection.info/MarketingBanner';
+{/* <Marquee/>
+
+<Navbar/>
+
+<MarketingBanner/> */}
 
 
 
