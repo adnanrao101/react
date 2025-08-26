@@ -1,4 +1,4 @@
-import Counter from "./counter/Counter";
+import Series from "./components/Series";
 
 
 
@@ -6,7 +6,7 @@ function App(){
   return(
     <>
 
-    <Counter/>
+    <Series/>
 
     </>
   )
