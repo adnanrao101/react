@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import "./Counter.css"
+
 function Counter() {
   // yahan state banayi jo 0 se start hogi
   const [count, setCount] = useState(10);
@@ -12,7 +14,7 @@ function Counter() {
       <h1>{count}</h1>
 
       {/* +1 button */}
-      <button onClick={() => setCount(count + 1)}>click for +1</button>
+      <button onClick={() => {setCount(count + 1)}}>click for +1</button>
 
       {/* -1 button */}
       <button onClick={() => setCount(count - 1)}>click for -1</button>

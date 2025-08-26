@@ -1,4 +1,5 @@
-import Counter from "./practis1/Counter";
+import Counter from "./counter/Counter";
+
 
 
 function App(){
